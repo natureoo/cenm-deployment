@@ -13,7 +13,7 @@ spec:
     - port: {{ .Values.p2pPort }}
       targetPort: {{ .Values.p2pPort }}
       protocol: TCP
-      name: http
+      name: tcp
     - port: {{ .Values.sshdPort }} 
       targetPort: {{ .Values.sshdPort }}
       protocol: TCP
