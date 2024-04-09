@@ -16,8 +16,8 @@ database:
   driverClassName: "org.postgresql.Driver"
   jdbcDriver: "/opt/cenm/drivers/postgresql-42.5.2.jar"
   url: "jdbc:postgresql://34.89.62.202:5432/cenm_auth"
-  user: "testuser"
-  password: "password"
+  user: "postgres"
+  password: "123qwer"
   runMigration: true
 
 # Volume size for etc/ directory
