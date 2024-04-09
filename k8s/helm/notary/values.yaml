@@ -68,6 +68,7 @@ dataSourceProperties:
     url: "jdbc:postgresql://34.89.62.202:5432/notary?sslmode=require"
     user: "postgres"
   dataSourceClassName: "org.postgresql.ds.PGSimpleDataSource"
+  jdbcDriver: "/opt/cenm/drivers/postgresql-42.2.12.jar"
 
 # Type of Notary
 notary:
