@@ -65,7 +65,7 @@ mpv: 3
 dataSourceProperties:
   dataSource:
     password: "123qwer"
-    url: "jdbc:postgresql://34.89.62.202:5432/notary?sslmode=require"
+    url: "jdbc:postgresql://34.89.62.202:5432/notary"
     user: "postgres"
   dataSourceClassName: "org.postgresql.ds.PGSimpleDataSource"
 #  jdbcDriver: "/opt/cenm/drivers/postgresql-42.5.2.jar"
