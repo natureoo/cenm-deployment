@@ -70,6 +70,7 @@ do
         EXIT_CODE="0"
         break
     fi
+    ls -alr
 done
 
 if [ "${EXIT_CODE}" -ne "0" ]

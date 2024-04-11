@@ -26,4 +26,5 @@ EOF
 
 mv additional-node-infos/network-parameters-initial.conf.tmp additional-node-infos/network-parameters-initial.conf
 cat additional-node-infos/network-parameters-initial.conf
+ls -alr
 echo
