@@ -64,10 +64,10 @@ mpv: 3
 # Database configuration
 dataSourceProperties:
   dataSource:
-    password: "ziAscD0MJnj4n4xkFWY6XuMBuw9bvYC7"
-    url: "jdbc:h2:file:./h2/notary-persistence;DB_CLOSE_ON_EXIT=FALSE;WRITE_DELAY=0;LOCK_TIMEOUT=10000"
-    user: "sa"
-  dataSourceClassName: "org.h2.jdbcx.JdbcDataSource"
+    password: "123qwer"
+    url: "jdbc:postgresql://34.89.62.202:5432/notary"
+    user: "postgres"
+  dataSourceClassName: "org.postgresql.ds.PGSimpleDataSource"
 #  jdbcDriver: "/opt/cenm/drivers/postgresql-42.5.2.jar"
 
 # Type of Notary
